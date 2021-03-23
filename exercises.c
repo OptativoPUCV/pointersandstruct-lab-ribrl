@@ -12,7 +12,7 @@ y en c almacena el valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-   *c = a + b;
+	*c = a+b;
 }
 
 /*
@@ -37,7 +37,8 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-
+	int cantValoresAsumar = n - m;
+	*suma = sumaN(a+cantValoresAsumar, m);
 }
 
 /*
@@ -55,7 +56,11 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+	Persona* p = (Persona*) malloc (sizeof(Persona));
+	strcpy(p[0].nombre,"Ignacio");
+	strcpy(p[0].rut,"15489XXX-2");
+	p[0].edad = 38;
+	return p;
 }
 
 /*
@@ -72,7 +77,10 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+	Vector* v = (Vector*) malloc (sizeof (Vector));
+	v->datos = (int*) calloc (n,sizeof (int));
+	v->capacidad = n;
+	return v;
 }
 
 /*
@@ -81,7 +89,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-
+	v->datos[i] = valor;
 }
 
 /*
@@ -99,7 +107,6 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
-
 }
 
 /*
