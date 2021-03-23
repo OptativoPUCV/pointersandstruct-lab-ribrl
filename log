@@ -70,3 +70,9 @@ Tue Mar 23 22:51:33 UTC 2021:
  tests:  7|1
 total_score: 60/70
 e175d96
+Tue Mar 23 22:52:08 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  7|1
+total_score: 60/70
+455cd8d
