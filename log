@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Mon Mar 22 22:21:49 UTC 2021: 
  exercises.c | 4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
@@ -17,10 +18,14 @@ Mon Mar 22 22:29:27 UTC 2021:
 total_score: 0/70
 80e0b28
 Mon Mar 22 22:36:19 UTC 2021: 
+=======
+Tue Mar 23 01:11:56 UTC 2021: 
+>>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
  exercises.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  1|6
 total_score: 10/70
+<<<<<<< HEAD
 639704f
 Tue Mar 23 22:22:04 UTC 2021: 
  exercises.c | 16 ++++++++++++----
@@ -190,3 +195,162 @@ Wed Mar 24 01:18:42 UTC 2021:
  tests:  8|0
 total_score: 70/70
 087b87e
+=======
+0b70416
+Tue Mar 23 01:40:53 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+38c4ab1
+Tue Mar 23 02:28:37 UTC 2021: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+ tests:  2|5
+total_score: 20/70
+bae19b1
+Tue Mar 23 02:30:26 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+3e59fe9
+Tue Mar 23 02:35:32 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+9317dcc
+Tue Mar 23 02:39:00 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+9d084c0
+Tue Mar 23 02:53:34 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+fdbc245
+Tue Mar 23 15:10:36 UTC 2021: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+49a66e0
+Tue Mar 23 15:10:47 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+14573aa
+Tue Mar 23 15:23:19 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+9358942
+Tue Mar 23 15:27:19 UTC 2021: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  3|4
+total_score: 30/70
+06b8291
+Tue Mar 23 15:37:42 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+148547d
+Tue Mar 23 15:38:08 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+d52bd21
+Tue Mar 23 15:38:47 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+9ef2002
+Tue Mar 23 15:38:57 UTC 2021: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+5179720
+Tue Mar 23 15:39:37 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+9b49924
+Tue Mar 23 16:32:35 UTC 2021: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  4|3
+total_score: 40/70
+9c8f4d5
+>>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
+Wed Mar 24 01:43:14 UTC 2021: 
+ exercises.c | Unmerged
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:80:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+exercises.c:82:2: error: ‘v’ undeclared (first use in this function)
+  v->datos = (int*) calloc (n,sizeof (int));
+  ^
+exercises.c:82:2: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:83:1: error: version control conflict marker in file
+ =======
+ ^~~~~~~
+exercises.c:86:1: error: version control conflict marker in file
+ >>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
+ ^~~~~~~
+exercises.c:86:9: error: invalid suffix "d163327846b28284e6f9d3281de8f5b39" on integer constant
+ >>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercises.c:89:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Wed Mar 24 01:44:28 UTC 2021: 
+ exercises.c | Unmerged
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:80:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+exercises.c:82:2: error: ‘v’ undeclared (first use in this function)
+  v->datos = (int*) calloc (n,sizeof (int));
+  ^
+exercises.c:82:2: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:83:1: error: version control conflict marker in file
+ =======
+ ^~~~~~~
+exercises.c:86:1: error: version control conflict marker in file
+ >>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
+ ^~~~~~~
+exercises.c:86:9: error: invalid suffix "d163327846b28284e6f9d3281de8f5b39" on integer constant
+ >>>>>>> 4980758d163327846b28284e6f9d3281de8f5b39
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercises.c:89:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Wed Mar 24 01:46:28 UTC 2021: 
+ exercises.c | Unmerged
+ 0 files changed
+ tests:  8|0
+total_score: 70/70
+bdd3b25
